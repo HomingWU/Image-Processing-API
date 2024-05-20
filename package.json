@@ -7,7 +7,7 @@
     "jasmine": "jasmine",
     "test": "npm run build && npm run jasmine",
     "build": "npx tsc",
-    "start":"nodemon src/index.ts"
+    "start": "nodemon src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "jasmine": "^5.1.0",
-    "jasmine-spec-reporter": "^6.0.0"
+    "jasmine-spec-reporter": "^6.0.0",
+    "sharp": "^0.33.4"
   }
 }
