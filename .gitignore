@@ -1,6 +1,7 @@
 dist/
 build/
 node_modules/
+thumbs/*
 .vscode/
 .idea/
 .env
