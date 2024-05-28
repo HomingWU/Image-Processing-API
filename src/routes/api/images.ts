@@ -11,6 +11,8 @@ images.get("/", (req, res) => {
     const filename = req.query.filename as string;
     const width = req.query.width as string;
     const height = req.query.height as string;
+    fsPromeses.mkdir(thumbsDir, { recursive: true }).catch(() => { });
+
     
     if (!filename || !width || !height || isNaN(parseInt(width)) || isNaN(parseInt(height)) || parseInt(width) <= 0 || parseInt(height) <= 0) {
         res.status(400).send("Invalid parameters");
