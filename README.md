@@ -29,9 +29,22 @@ This API receives three query parameters: filename, width, and height, if all th
    ```
    **Note: only the filenames of files in the image folder are valid**
 ## Default Tests:
-```bash
-npm test
-```
+   ```bash
+   npm test
+   ```
+## Others:
+1. linting:
+   ```bash
+   npm run lint
+   ```
+2. prettier:
+   ```bash
+   npm run prettier
+   ```
+3. build:
+   ```bash
+   npm run build
+   ```
 ## License
 
 [License](LICENSE.txt)
