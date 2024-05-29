@@ -5,11 +5,6 @@ import tseslint from "typescript-eslint";
 
 export default [
   {languageOptions: { globals: globals.browser }},
-  {ignores: [
-    "node_modules/",
-    "dist/",
-    "src/tests/helpers/",
-  ]},
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
 ];
