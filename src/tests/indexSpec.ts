@@ -1,6 +1,5 @@
 import supertest from 'supertest';
 import app from '../index';
-import { escape } from 'querystring';
 
 const request = supertest(app);
 
